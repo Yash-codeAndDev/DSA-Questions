@@ -1,0 +1,3 @@
+# LIS with BinarySearch
+
+bridges = [ [] , [ ], [] , [ ] , [ ] , [ ] , [] , [] , []]
