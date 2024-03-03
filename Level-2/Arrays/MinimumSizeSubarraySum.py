@@ -8,6 +8,7 @@ for i in range(1, len(nums)):
 
 
 def binary_search(i, prefix_sums):
+
     l = i
     r = len(prefix_sums)
     # it has to be greater than last index or
