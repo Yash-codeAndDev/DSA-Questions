@@ -25,4 +25,4 @@ for i in range(len(nums)):
 
         ans += (cycle_len - 1)
 
-print(ans)
+print("Ans : ",ans)
