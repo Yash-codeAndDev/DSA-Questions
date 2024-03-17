@@ -1,4 +1,3 @@
-
 nums = [-1,1]
 n = len(nums)
 pref_prod = [nums[0]]

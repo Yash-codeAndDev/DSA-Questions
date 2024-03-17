@@ -1,7 +1,4 @@
-# Python 3 program to print matrix in diagonal order
 MAX = 100
-
-
 def printMatrixDiagonal(mat, n):
     # Initialize indexes of element to be printed next
     i = 0
@@ -43,11 +40,9 @@ def printMatrixDiagonal(mat, n):
                 j = j + 2
                 i -= 1
 
-        # Revert the isUp to change the direction
         isUp = not isUp
 
 
-# Driver program
 if __name__ == "__main__":
     mat = [[1, 2, 3],
            [4, 5, 6],
@@ -55,5 +50,3 @@ if __name__ == "__main__":
 
     n = 3
     printMatrixDiagonal(mat, n)
-
-# This code is contributed by Chitra Nayal
