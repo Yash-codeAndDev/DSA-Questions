@@ -46,3 +46,4 @@ for i in range(len(dp)):
     print()
 
 
+print("Max Value : {}  Min Value : {}".format(dp[0][len(dp)-1][1] , dp[0][len(dp)-1][0] ))
